@@ -1,0 +1,14 @@
+package com.mockito.demo.service;
+
+import org.springframework.stereotype.Service;
+
+import com.mockito.demo.domain.Item;
+
+@Service
+public class ItemBusinessService {
+
+	public Item getItems() {
+		return new Item(1, "Ball", 200, 3);
+	}
+
+}

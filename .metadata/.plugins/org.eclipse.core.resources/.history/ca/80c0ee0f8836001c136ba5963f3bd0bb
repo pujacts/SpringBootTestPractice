@@ -1,0 +1,11 @@
+package com.mockito.demo.service;
+
+import com.mockito.demo.domain.Item;
+
+public class ItemBusinessService {
+
+	public Item getItems() {
+		return new Item(1, "Ball", 200, 3);
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.mockito.demo;
+
+import org.springframework.web.bind.annotation.GetMapping;
+
+public class ItemController {
+
+	@GetMapping("/hello")
+	public String helloworld(){
+		return "hey dere, I hope you are okay:)";
+	}
+}

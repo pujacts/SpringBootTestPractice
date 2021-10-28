@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ItemControllerTest" project="demo" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="com.mockito.demo.ItemControllerTest" time="0.32" displayname="ItemControllerTest" uniqueid="[engine:junit-jupiter]/[class:com.mockito.demo.ItemControllerTest]">
+    <testcase name="itemFromDatabase" classname="com.mockito.demo.ItemControllerTest" time="0.3" displayname="itemFromDatabase()" uniqueid="[engine:junit-jupiter]/[class:com.mockito.demo.ItemControllerTest]/[method:itemFromDatabase()]"/>
+    <testcase name="getItem" classname="com.mockito.demo.ItemControllerTest" time="0.011" displayname="getItem()" uniqueid="[engine:junit-jupiter]/[class:com.mockito.demo.ItemControllerTest]/[method:getItem()]"/>
+    <testcase name="itemFromBusiness" classname="com.mockito.demo.ItemControllerTest" time="0.007" displayname="itemFromBusiness()" uniqueid="[engine:junit-jupiter]/[class:com.mockito.demo.ItemControllerTest]/[method:itemFromBusiness()]"/>
+  </testsuite>
+</testrun>

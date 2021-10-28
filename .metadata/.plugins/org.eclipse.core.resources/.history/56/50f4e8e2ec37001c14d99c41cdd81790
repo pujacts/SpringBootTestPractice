@@ -1,0 +1,24 @@
+package com.mockito.demo;
+
+import org.junit.runner.RunWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.junit.MockitoJUnitRunner;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.test.web.servlet.MockMvc;
+
+import com.mockito.demo.dao.ItemRepository;
+import com.mockito.demo.service.ItemBusinessService;
+
+@RunWith(MockitoJUnitRunner.class)
+public class ItemBusinessServiceTest {
+
+	@Autowired
+	private MockMvc mockMvc;
+
+	@Mock
+	private ItemRepository repo;
+	
+	@InjectMocks
+	private ItemBusinessService service;
+}

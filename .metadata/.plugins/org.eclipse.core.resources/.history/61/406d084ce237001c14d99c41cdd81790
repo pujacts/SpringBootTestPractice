@@ -1,0 +1,1 @@
+insert into ITEM values(1000, "item1", 10,20);

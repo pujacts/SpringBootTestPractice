@@ -1,0 +1,6 @@
+package com.mockito.demo;
+
+public class JsonAssertTest {
+
+	String str = "{\"id\":1,\"name\":\"Ball\",\"price\":200,\"quantity\":3}";
+}
